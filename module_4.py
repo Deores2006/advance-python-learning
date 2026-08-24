@@ -336,14 +336,25 @@
 # print(next(it))
 # print(next(it))
 
-data = ["A","B","C","D"]
+# data = ["A","B","C","D"]
 
-it = iter(data)
+# it = iter(data)
 
-print(next(it))
-print(next(it))
+# print(next(it))
+# print(next(it))
 
-X = next(it)
+# X = next(it)
 
-print(X)
-print(next(it))
+# print(X)
+# print(next(it))
+
+numbers = [10,20,30]
+
+it = iter(numbers)
+
+while True:
+    try:
+        print(next(it))
+    except StopIteration:
+        print("finished")
+        break

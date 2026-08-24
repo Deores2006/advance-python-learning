@@ -150,7 +150,7 @@
 
 # fruits = ["apple","banana","Mango"]
 
-# for index,fruit in enumarate(fruits):
+# for index,fruit in enumerate(fruits):
 #     print(index,fruit)
 
 # i = 1
@@ -326,5 +326,24 @@
 # s1.introduce()
 # s2.introduce()
 
-result = {x % 3 for x in range(1,11)}
-print(result)
+# names = ["sauarbh","sahadev","python"]
+# uppercase = [name.upper() for name in names]
+# print(uppercase)
+
+# number = [10,20,30]
+# it = iter(number)
+
+# print(next(it))
+# print(next(it))
+
+data = ["A","B","C","D"]
+
+it = iter(data)
+
+print(next(it))
+print(next(it))
+
+X = next(it)
+
+print(X)
+print(next(it))

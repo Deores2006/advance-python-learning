@@ -195,20 +195,20 @@
 # num = sorted(nums)
 # print(num)
 
-# '''a=*
-#    b=**
-#    c=***
-#    d=****'''
+'''a=*
+   b=**
+   c=***
+   d=****'''
 
-# import math
+import math
 
-# x = int(input("Enter the position: "))
+x = int(input("Enter the position: "))
 
-# n = math.ceil((math.sqrt(8 * x + 1) - 1) / 2)
+n = math.ceil((math.sqrt(8 * x + 1) - 1) / 2)
 
-# alphabet = chr(96 + n)
+alphabet = chr(96 + n)
 
-# print("The alphabet is:", alphabet)
+print("The alphabet is:", alphabet)
 
 # class Solution:
 #     def validSequence(self, word1, word2):
@@ -348,13 +348,25 @@
 # print(X)
 # print(next(it))
 
-numbers = [10,20,30]
+# numbers = [10,20,30]
 
-it = iter(numbers)
+# it = iter(numbers)
 
-while True:
-    try:
-        print(next(it))
-    except StopIteration:
-        print("finished")
-        break
+# while True:
+#     try:
+#         print(next(it))
+#     except StopIteration:
+#         print("finished")
+#         break
+
+# numbers = [1,2,3]
+
+# it = iter(numbers)
+
+# while True:
+#     try:
+#         print(next(it))
+#     except StopIteration:
+#         print("finished")
+#         break
+
